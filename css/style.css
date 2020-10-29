@@ -1,10 +1,98 @@
-/* utylity */
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Utylity */
 .py_20{
   padding: 20px 0;
 }
-/* END utility */
+/* END Utility */
 
+/* Color */
+.bg_white{
+  background-color: white;
+}
+/* END Color */
+
+/* Typo */
+p{
+  font-weight: 400;
+}
+
+a{
+  font-weight: 500;
+}
+
+h1,h2{
+  font-weight: 700;
+}
+/* END Typo */
+
+/*********************
+* Header             *
+**********************/
+/* navbar */
 .navbar-brand img{
   width: 50%;
   margin-top: -5px;
+}
+
+.navbar-default .navbar-nav > li > a{
+  color: #031c4e;
+}
+
+.navbar-default .navbar-toggle{
+  border: none;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #2285fd;
+}
+
+#sign_up{
+  border-color: #2285fd;
+  color: #2285fd;
+  font-weight: 500;
+}
+/* END navbar */
+
+
+/* Media Query */
+/* Fa collassare la navbar sotti i 1200px per
+   evitare la sovrapposizione dei sotto-menu */
+@media (max-width: 1200px) {
+  .navbar-header {
+      float: none;
+  }
+  .navbar-left,.navbar-right {
+      float: none !important;
+  }
+  .navbar-toggle {
+      display: block;
+  }
+  .navbar-collapse {
+      border-top: 1px solid transparent;
+      box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+  }
+  .navbar-fixed-top {
+      top: 0;
+      border-width: 0 0 1px;
+  }
+  .navbar-collapse.collapse {
+      display: none!important;
+  }
+  .navbar-nav {
+      float: none!important;
+      margin-top: 7.5px;
+  }
+  .navbar-nav>li {
+      float: none;
+  }
+  .navbar-nav>li>a {
+      padding-top: 10px;
+      padding-bottom: 10px;
+  }
+  .collapse.in{
+      display:block !important;
+  }
 }
