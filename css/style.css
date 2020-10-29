@@ -12,9 +12,24 @@ body{
 .bg_white{
   background-color: white;
 }
+.bg_blue{
+  background-color: #006aff;
+}
 
 .text_white{
   color: white;
+}
+
+.text_grey{
+  color: #5c6a88;
+}
+
+.text_blue{
+  color: #006aff;
+}
+
+.text_dark_blue{
+  color: #031c4e;
 }
 /* END Color */
 
@@ -78,12 +93,46 @@ h1{
 }
 
 .hero_text h1{
-  padding: 40px 0 20px 0;
+  padding-bottom: 20px;
 }
 
 .hero_text p{
   color: #bbcdff;
   font-weight: 500;
+}
+
+.form_box{
+  border-radius: 1rem;
+  padding: 20px;
+}
+.form_box h2{
+  line-height: 4.2rem;
+}
+
+#inputEmail, #inputPassword{
+  font-size: 1.75rem;
+}
+
+#google_sign_up{
+  margin-top: 14px;
+  font-weight: 500;
+}
+#google_sign_up img{
+  width: 18px;
+  float: left;
+}
+#google_sign_up::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.form_box p{
+  margin-top: 14px;
+  font-weight: 500;
+}
+.form_box p > a{
+  text-decoration: underline;
 }
 /* END Hero */
 
