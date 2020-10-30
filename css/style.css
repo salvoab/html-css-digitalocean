@@ -153,6 +153,17 @@ h1{
 section h2 {
   margin: 0;
 }
+
+section p.lead{
+  font-size: 2.2rem;
+  font-weight: 500;
+  padding: 2rem 0 2.5rem 0;
+}
+section p.no_lead{
+  font-weight: 500;
+  font-size: 1.6rem;
+}
+
 /* vip_customers section */
 #vip_customers img{
   width: 150px;
@@ -166,11 +177,6 @@ section h2 {
 /* END vip_customers section */
 
 /* services section */
-#services p.lead{
-  font-size: 2rem;
-  padding: 1.5rem 0 2.5rem 0;
-}
-
 #services .btn-group-vertical>.btn{
   border-radius: 0;
   border-top: none;
@@ -197,16 +203,50 @@ section h2 {
   box-shadow: none;
 }
 
-.service_card p{
+/* .service_card p{
   font-weight: 500;
   font-size: 1.6rem;
-}
+} */
 /* END services section */
 
 /* marketing section */
-#marketin{
-  height: 300px;
+#marketing img{
+  width: 70%;
+  padding-top: 40px;
+  padding-bottom: 20px;
 }
+span.arrows::before,
+span.arrows::after{
+  font-size: 4rem;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  padding: 20px;
+  color: #5c6a88;
+}
+span.arrows::before{
+  content: "\f053";
+}
+span.arrows::after{
+  content: "\f054";
+}
+
+span.circle_full::after{
+  content: "\f111";
+  font-size: 1.3rem;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  padding: 0.5rem;
+  color: #006aff;
+}
+span.circle_empty::after{
+  content: "\f111";
+  font-size: 1.3rem;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 400;
+  padding: 0.5rem;
+  color: #006aff;
+}
+
 /* END marketing section */
 
 /* features section */
@@ -245,7 +285,7 @@ section h2 {
 /* Media Query */
 /* Fa collassare la navbar sotti i 1200px per
    evitare la sovrapposizione dei sotto-menu */
-@media (max-width: 1200px) {
+@media screen and (max-width: 1200px) {
   .navbar-header {
       float: none;
   }
@@ -279,5 +319,12 @@ section h2 {
   }
   .collapse.in{
       display:block !important;
+  }
+}
+
+@media screen and (max-width: 768px){
+  span.arrows::before,
+  span.arrows::after{
+    content: "";
   }
 }
