@@ -15,6 +15,9 @@ body{
 .bg_blue{
   background-color: #006aff;
 }
+.bg_grey{
+  background-color: #f3f5f9;
+}
 
 .text_white{
   color: white;
@@ -135,6 +138,22 @@ h1{
   text-decoration: underline;
 }
 /* END Hero */
+
+/*********************
+* Main               *
+**********************/
+/* vip_customers section */
+#vip_customers img{
+  width: 150px;
+  height: auto;
+}
+
+#vip_customers h3{
+  margin: 0;
+  padding-top: 3rem;
+}
+/* END vip_customers section */
+
 
 /* Media Query */
 /* Fa collassare la navbar sotti i 1200px per
