@@ -161,7 +161,7 @@ section p.lead{
 }
 section p.no_lead{
   font-weight: 500;
-  font-size: 1.6rem;
+  font-size: 1.4rem;
 }
 
 /* vip_customers section */
@@ -202,11 +202,6 @@ section p.no_lead{
   outline: none;
   box-shadow: none;
 }
-
-/* .service_card p{
-  font-weight: 500;
-  font-size: 1.6rem;
-} */
 /* END services section */
 
 /* marketing section */
@@ -250,8 +245,12 @@ span.circle_empty::after{
 /* END marketing section */
 
 /* features section */
-#features{
-  height: 300px;
+.feature_card{
+  padding: 20px;
+}
+
+#features h2{
+  padding-bottom: 30px;
 }
 /* END features section */
 
