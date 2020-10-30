@@ -15,6 +15,9 @@ body{
 .bg_blue{
   background-color: #006aff;
 }
+.bg_ocean_blue{
+  background-color: #0038b2;
+}
 .bg_grey{
   background-color: #f3f5f9;
 }
@@ -142,6 +145,9 @@ h1{
 /*********************
 * Main               *
 **********************/
+section h2 {
+  margin: 0;
+}
 /* vip_customers section */
 #vip_customers img{
   width: 150px;
@@ -153,6 +159,50 @@ h1{
   padding-top: 3rem;
 }
 /* END vip_customers section */
+
+/* services section */
+#services p.lead{
+  font-size: 2rem;
+}
+/* END services section */
+
+/* marketing section */
+#marketin{
+  height: 300px;
+}
+/* END marketing section */
+
+/* features section */
+#features{
+  height: 300px;
+}
+/* END features section */
+
+/* servers_data section */
+#servers_data{
+  height: 300px;
+}
+/* END marketing section */
+
+/* teams section */
+#teams{
+  height: 300px;
+}
+/* END teams section */
+
+/* get_started section */
+#get_started{
+  height: 300px;
+}
+/* END get_started section */
+
+/*********************
+* Footer             *
+**********************/
+#site-footer{
+  height: 500px;
+  background-color: #031c4e;
+}
 
 
 /* Media Query */
