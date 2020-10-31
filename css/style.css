@@ -9,6 +9,9 @@ body{
 .py_40{
   padding: 40px 0;
 }
+.pb_20{
+  padding-bottom: 20px;
+}
 /* END Utility */
 
 /* Color */
@@ -35,7 +38,9 @@ body{
 .text_blue{
   color: #006aff;
 }
-
+.text_cyan{
+  color: #00d4d1;
+}
 .text_dark_blue{
   color: #031c4e;
 }
@@ -255,8 +260,21 @@ span.circle_empty::after{
 /* END features section */
 
 /* servers_data section */
-#servers_data{
-  height: 300px;
+.servers_data_card{
+  padding: 20px;
+  font-size: 1.16rem;
+}
+
+.servers_data_card .col-xs-6{
+  font-weight: 500;
+}
+
+.servers_data_card .row{
+  padding: 8px 0;
+  border-bottom: 1px solid white;
+}
+.servers_data_card .row:last-child{
+  border-bottom: none;
 }
 /* END marketing section */
 
@@ -325,5 +343,9 @@ span.circle_empty::after{
   span.arrows::before,
   span.arrows::after{
     content: "";
+  }
+
+  h1 {
+    font-size: 4.5rem;
   }
 }
