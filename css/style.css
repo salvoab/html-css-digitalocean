@@ -344,7 +344,6 @@ span.circle_empty::after{
 * Footer             *
 **********************/
 #site-footer{
-  height: 500px;
   background-color: #031c4e;
 }
 
