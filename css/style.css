@@ -222,6 +222,7 @@ span.arrows::after{
   font-weight: 900;
   padding: 20px;
   color: #5c6a88;
+  cursor: pointer;
 }
 span.arrows::before{
   content: "\f053";
@@ -237,6 +238,7 @@ span.circle_full::after{
   font-weight: 900;
   padding: 0.5rem;
   color: #006aff;
+  cursor: pointer;
 }
 span.circle_empty::after{
   content: "\f111";
@@ -245,6 +247,7 @@ span.circle_empty::after{
   font-weight: 400;
   padding: 0.5rem;
   color: #006aff;
+  cursor: pointer;
 }
 
 /* END marketing section */
@@ -287,13 +290,18 @@ span.circle_empty::after{
   width: calc( (100% / 4) - 20px );
   display: inline-block;
   padding: 50px;
-  font-size: 3rem;
+  font-size: 4rem;
+  color: #5c6a88;
 }
 .panel_box .arrow:first-child{
   text-align: right;
 }
 .panel_box .arrow:last-child{
   text-align: left;
+}
+
+.panel_box .arrow i{
+  cursor: pointer;
 }
 
 .panel_box .panel{
@@ -366,5 +374,9 @@ span.circle_empty::after{
 
   h1 {
     font-size: 4.5rem;
+  }
+
+  .xs_display_none{
+    display: none;
   }
 }
