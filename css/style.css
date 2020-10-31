@@ -276,11 +276,30 @@ span.circle_empty::after{
 .servers_data_card .row:last-child{
   border-bottom: none;
 }
-/* END marketing section */
+/* END servers_data section */
 
 /* teams section */
-#teams{
-  height: 300px;
+.panel{
+  padding: 50px;
+}
+
+.panel_box .arrow{
+  width: calc( (100% / 4) - 20px );
+  display: inline-block;
+  padding: 50px;
+  font-size: 3rem;
+}
+.panel_box .arrow:first-child{
+  text-align: right;
+}
+.panel_box .arrow:last-child{
+  text-align: left;
+}
+
+.panel_box .panel{
+  width: calc( 100% / 2 );
+  display: inline-block;
+  vertical-align: middle;
 }
 /* END teams section */
 
