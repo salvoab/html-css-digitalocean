@@ -36,6 +36,9 @@ body{
 .text_grey{
   color: #5c6a88;
 }
+.text_footer_grey{
+  color: #8a93a8;
+}
 .text_blue{
   color: #006aff;
 }
@@ -345,6 +348,23 @@ span.circle_empty::after{
 **********************/
 #site-footer{
   background-color: #031c4e;
+}
+
+#made_in{
+  color: #495a7c;
+}
+
+.footer_left_card{
+  padding-top: 40px;
+}
+
+.footer_left_card img{
+  padding: 20px 0;
+}
+
+.footer_left_card ul li a{
+  font-size: 2.5rem;
+  padding-right: 8px;
 }
 
 
