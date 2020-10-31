@@ -282,8 +282,8 @@ span.circle_empty::after{
 /* END servers_data section */
 
 /* teams section */
-.panel{
-  padding: 50px;
+#teams h2{
+  padding-bottom: 80px;
 }
 
 .panel_box .arrow{
@@ -308,6 +308,18 @@ span.circle_empty::after{
   width: calc( 100% / 2 );
   display: inline-block;
   vertical-align: middle;
+}
+
+.panel{
+  padding: 50px;
+}
+
+.panel > img {
+  width: 46%;
+}
+
+.panel > p.text_dark_blue, .panel > a{
+  font-size: 1.6rem;
 }
 /* END teams section */
 
