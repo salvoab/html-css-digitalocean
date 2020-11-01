@@ -173,6 +173,11 @@ section p.no_lead{
   font-size: 1.4rem;
 }
 
+section a:hover{
+  color: #1633ff;
+  text-decoration: none;
+}
+
 /* vip_customers section */
 #vip_customers img{
   width: 150px;
@@ -431,5 +436,9 @@ span.circle_empty::after{
 
   .xs_display_none{
     display: none;
+  }
+
+  #site-footer{
+    font-size: 1.8rem;
   }
 }
