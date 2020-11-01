@@ -486,6 +486,10 @@ span.circle_empty::after{
 }
 
 @media screen and (max-width: 768px){
+  .navbar-brand img{
+    margin-right: -74px;
+  }
+
   span.arrows::before,
   span.arrows::after{
     content: "";
@@ -498,7 +502,11 @@ span.circle_empty::after{
   .panel_box .arrow{
     display: none;
   }
-  
+
+  .panel_box .panel{
+    width: 100%;
+  }
+
   .xs_display_none{
     display: none;
   }
