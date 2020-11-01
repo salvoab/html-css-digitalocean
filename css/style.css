@@ -515,3 +515,13 @@ span.circle_empty::after{
     font-size: 1.8rem;
   }
 }
+
+@media screen and (max-width: 321px){
+  .navbar-brand img{
+    margin-right: -114px;
+  }
+
+  .text_cyan{
+    font-size: 1.1rem;
+  }
+}
