@@ -495,6 +495,10 @@ span.circle_empty::after{
     font-size: 4.5rem;
   }
 
+  .panel_box .arrow{
+    display: none;
+  }
+  
   .xs_display_none{
     display: none;
   }
